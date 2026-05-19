@@ -8,7 +8,7 @@ interface SidebarProps {
 
 export default function Sidebar({ section, setSection }: SidebarProps) {
   return (
-    <nav className="flex flex-col items-center w-16 h-full border-r border-border flex-shrink-0" style={{ background: "hsl(220 13% 7%)" }}>
+    <nav className="flex flex-col items-center w-16 h-full border-r border-border flex-shrink-0" style={{ background: "hsl(228 22% 5%)", backdropFilter: "blur(20px)" }}>
       {/* Логотип */}
       <div className="flex items-center justify-center w-16 h-14 border-b border-border mb-1">
         <div className="w-7 h-7 bg-primary flex items-center justify-center" style={{ clipPath: "polygon(0 0, 100% 0, 100% 75%, 75% 100%, 0 100%)" }}>
